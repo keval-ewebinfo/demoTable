@@ -1,0 +1,24 @@
+.employeeTable , th, td{
+    border: 1px solid #dadce0;
+    border-collapse: collapse;
+    border-style: solid;
+    color: #34495e;
+    font-weight: 500;
+}
+
+.employeeTable th,
+.employeeTable td:nth-child(1){
+    border-width: 2px;
+}
+
+.employeeTable td:nth-child(1){
+    text-align: left;
+}
+
+
+.employeeTable th,
+.employeeTable td{
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
